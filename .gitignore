@@ -1,0 +1,7 @@
+.env
+.env.local
+.env.vps
+*.bak.*
+__pycache__/
+*.pyc
+.DS_Store
