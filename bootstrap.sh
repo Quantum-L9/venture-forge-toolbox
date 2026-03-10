@@ -90,7 +90,7 @@ copy_tool "$SCRIPT_DIR/tools/ci/ci-quality.yml"           ".github/workflows/ci-
 echo ""
 echo "── Lint Rules ──"
 
-copy_tool "$SCRIPT_DIR/tools/lint/semgrep-rules.yaml"     ".semgrep/semgrep-rules.yaml"
+copy_tool "$SCRIPT_DIR/.semgrep/semgrep-rules.yaml"     ".semgrep/semgrep-rules.yaml"
 
 # ---------------------------------------------------------------------------
 # 4. Templates → create .env.template, never overwrite real .env
